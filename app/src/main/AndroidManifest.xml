@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_food"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_food"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Food4thought">
+        <activity
+            android:name=".logout"
+            android:exported="true" />
+        <activity
+            android:name=".displaydata"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ngodelivery"
+            android:exported="true" />
+        <activity
+            android:name=".ngotrack"
+            android:exported="true" />
+        <activity
+            android:name=".ngonavigation"
+            android:exported="true"
+            android:label="@string/title_activity_ngonavigation"
+            android:theme="@style/Theme.Food4thought.NoActionBar"></activity>
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".prodetails"
+            android:exported="true" />
+        <activity
+            android:name=".AddUserFood"
+            android:exported="true" />
+
+        <activity
+            android:name=".ngonotification"
+            android:exported="true" />
+        <activity
+            android:name=".ngodash"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Hotelngonotify"
+            android:exported="true" />
+
+        <activity
+            android:name=".hoteldash"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".ngologin"
+            android:exported="true" />
+        <activity
+            android:name=".ngoregister"
+            android:exported="true" />
+
+        <activity
+            android:name=".register"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.food4thought.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.food4thought.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.food4thought.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <activity
+        android:id="@+id/nav_track"
+        android:name="com.example.food4thought.ngotrack"
+        android:label="@string/menu_track"
+        tools:layout="@layout/activity_ngotrack" />
+    <activity
+        android:id="@+id/nav_check"
+        android:name="com.example.food4thought.checklist"
+        android:label="@string/menu_check"
+        tools:layout="@layout/activity_checklist" />
+
+    <activity
+    android:id="@+id/nav_delivery"
+    android:name="com.example.food4thought.ngodelivery"
+    android:label="@string/menu_delivery"
+    tools:layout="@layout/activity_ngodelivery" />
+
+
+
+
+</navigation>
